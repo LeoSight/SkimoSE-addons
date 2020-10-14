@@ -1,0 +1,3 @@
+-- LeoSight.cz (c) 2020 / SkimoSE 1.4
+-- # $DESC
+-- Autor: $AUTHOR
