@@ -1,0 +1,16 @@
+<meta>
+    <info author="Rataj" type="script" name="SSE-Example" description="SSE Example" version="1.0" gamemodes="rpcore" />
+    <include resource="SkimoSE_core" minversion="1.4" />
+    <min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903"></min_mta_version>
+    <oop>true</oop>
+
+    <!-- Skripty -->
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.sse" type="server" />
+
+    <!-- Soubory -->
+    <!--<file src="obrazek.png" />-->
+
+    <!-- Exporty -->
+    <!--<export function="helloWorld" type="server" />-->
+</meta>

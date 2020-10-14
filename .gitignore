@@ -2,3 +2,5 @@
 .idea
 *.lnk
 *.exe
+*.ssec
+*.luac
