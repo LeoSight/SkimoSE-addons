@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "${0%/*}"
+
 printf "\e[92mZadej označení modulu\n"
 printf "\e[0mOznačení může obsahovat pouze malá písmena a-z, žádné speciální znaky!\n\n"
 printf '\e[93m\e[1mOznačení\e[0m: '

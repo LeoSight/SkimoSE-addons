@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "${0%/*}"
+
 for D in *; do
   if [ -d "${D}" ]; then
     if [[ "$D" == *"default"* ]]; then

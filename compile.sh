@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "${0%/*}"
+
 for file in $(find . -type f -name "*.lua"); do
   if [[ "$file" == *"default/"* ]]; then
     continue
